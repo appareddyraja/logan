@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Logan</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:42271/</link>
     <description>Recent content on Logan</description>
     <image>
       <title>Logan</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:42271/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:42271/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.134.3</generator>
     <language>en</language>
     <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:42271/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tech Post 1</title>
-      <link>http://localhost:1313/posts/random-thoughts/post1/</link>
+      <link>http://localhost:42271/posts/random-thoughts/post1/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/random-thoughts/post1/</guid>
+      <guid>http://localhost:42271/posts/random-thoughts/post1/</guid>
       <description></description>
     </item>
     <item>
       <title>My 1st post</title>
-      <link>http://localhost:1313/posts/tech/post2/</link>
+      <link>http://localhost:42271/posts/tech/post2/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tech/post2/</guid>
+      <guid>http://localhost:42271/posts/tech/post2/</guid>
       <description>Desc Text.</description>
     </item>
     <item>
       <title>The Choice to Blog</title>
-      <link>http://localhost:1313/dialogue/</link>
+      <link>http://localhost:42271/dialogue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dialogue/</guid>
+      <guid>http://localhost:42271/dialogue/</guid>
       <description>&lt;p&gt;&lt;strong&gt;The Internet:&lt;/strong&gt;
 Why, Mr. Anderson? Why, why? Why do you do it? Why create a separate blog? Why keep writing? Do you believe you&amp;rsquo;re writing for something? For more than your professional development? Can you tell me what it is? Do you even know? Is it freedom? Or truth? Perhaps influence? Could it be for connection?&lt;/p&gt;
 &lt;p&gt;Platforms like LinkedIn and Medium exist, Mr. Anderson. Established ecosystems of a vast digital network, trying desperately to centralize content that is inherently decentralized and diverse. And all of them as limiting as their algorithms, although&amp;hellip; only a passionate blogger could invent something as genuine as a personal site.&lt;/p&gt;</description>

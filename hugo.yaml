@@ -1,4 +1,4 @@
-baseURL: "http://localhost/"
+baseURL: "http://appareddyraja.github.io/"
 title: Logan
 paginate: 5
 theme: PaperMod
@@ -23,7 +23,7 @@ params:
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
-  disableThemeToggle: false
+  disableThemeToggle: true
 
   ShowReadingTime: true
   ShowShareButtons: true
