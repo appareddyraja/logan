@@ -1,0 +1,106 @@
+baseURL: "http://localhost/"
+title: Logan
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: logan4four
+  description: "ExampleSite description"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  leftSidebar:
+    enable: true
+    menu:
+      - name: "Home"
+        url: "/"
+      - name: "About"
+        url: "/about/"
+      - name: "Posts"
+        url: "/posts/"
+
+  rightSidebar:
+    enable: true
+    widgets:
+      - type: "recent-posts"
+        params:
+          limit: 5
+      - type: "tags"
+
+  # Enable home-info mode
+  homeInfoParams:
+    Title: "Welcome to Logan's Awesome Blog! 👨‍💻"
+    Content: >
+      Hey there! I'm Logan, and this blog is my space to share what I learn and face in my daily work life, technology, and whatever random ideas pop into my head.
+
+      **TRUST THE PROCESS**
+
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/"
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+# Specify which sections should be considered as main content
+# This will prevent posts from appearing on the home page
+mainSections: [""]
+
+# Allow HTML in Markdown content
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

@@ -1,0 +1,232 @@
+/* Base styles */
+body, html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  height: auto;
+  overflow-y: auto;
+  margin: 0;
+}
+
+/* Layout */
+.page-layout {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.left-sidebar, .right-sidebar {
+  flex: 1;
+  min-width: 200px;
+  max-width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+.main-content {
+  flex: 3;
+  min-width: 50%;
+  padding: 20px;
+}
+
+/* Landing page content */
+.landing-page-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.landing-page-content h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.landing-page-content p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+/* Dialogue section */
+.dialogue-section {
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+/* Trust process section */
+.trust-process {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.trust-process h2 {
+  font-size: 24px;
+  color: #007acc;
+  font-weight: bold;
+}
+
+/* Matrix Text Effect */
+.matrix-text {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  line-height: 1.6;
+}
+
+.matrix-text strong {
+  color: #ffffff;
+}
+
+/* Separator Line */
+.separator {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 255, 0, 0), rgba(0, 255, 0, 0.75), rgba(0, 255, 0, 0));
+  margin: 30px 0;
+}
+
+/* Sidebar styles */
+.sidebar-widget {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%; /* Full width of sidebar */
+  text-align: center; /* Center text content */
+}
+
+.sidebar-widget h3 {
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+}
+
+.left-sidebar ul, .right-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%; /* Full width of sidebar */
+}
+
+.left-sidebar li, .right-sidebar li {
+  margin-bottom: 10px;
+  text-align: center; /* Center list items */
+}
+
+.left-sidebar a, .right-sidebar a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Recent Posts Widget */
+.recent-posts-widget ul {
+  padding-left: 0;
+}
+
+.recent-posts-widget li {
+  margin-bottom: 10px;
+}
+
+/* Tags Widget */
+.tags-widget ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center tags */
+  padding-left: 0;
+}
+
+.tags-widget li {
+  margin: 0 5px 5px 0;
+}
+
+.tags-widget a {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+  }
+
+  .left-sidebar, .right-sidebar, .main-content {
+    background-color: #1a1a1a;
+  }
+
+  .sidebar-widget {
+    background-color: #2a2a2a;
+    border: 1px solid #3a3a3a;
+  }
+
+  .sidebar-widget h3 {
+    border-bottom-color: #3a3a3a;
+  }
+
+  a {
+    color: #4da6ff;
+  }
+
+  a:hover {
+    color: #66b3ff;
+  }
+
+  .tags-widget a {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+  }
+
+  .tags-widget a:hover {
+    background-color: #3a3a3a;
+  }
+
+  .matrix-text {
+    color: #00ff00;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .left-sidebar, .right-sidebar {
+    flex: 1 1 200px;
+  }
+  
+  .landing-page-content h1 {
+    font-size: 2rem;
+  }
+  
+  .landing-page-content p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-layout {
+    flex-direction: column;
+  }
+  
+  .left-sidebar, .right-sidebar, .main-content {
+    width: 100%;
+    max-width: none;
+  }
+  
+  .landing-page-content h1 {
+    font-size: 1.8rem;
+  }
+  
+  .landing-page-content p {
+    font-size: 0.85rem;
+  }
+  
+  .dialogue-section {
+    font-size: 0.75rem;
+  }
+}
